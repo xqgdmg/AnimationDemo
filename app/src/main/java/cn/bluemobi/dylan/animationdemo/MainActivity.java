@@ -133,7 +133,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                 break;
-            case R.id.animation_group2://先播放旋转动画，完成后播放位移动画，在xml中设置第二个动画执行的等待时间
+            case R.id.animation_group2://先播放旋转动画，完成后播放位移动画，
+                // 在xml中设置第二个动画执行的等待时间 android:startOffset="1000"
                 Animation animationGroup = AnimationUtils.loadAnimation(this, R.anim.group2);
                 iv.startAnimation(animationGroup);
                 break;
