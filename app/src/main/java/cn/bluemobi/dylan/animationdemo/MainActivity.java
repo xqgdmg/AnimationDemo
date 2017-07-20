@@ -25,7 +25,7 @@ import cn.bluemobi.dylan.animationdemo.adapter.CommonAdapter;
 import cn.bluemobi.dylan.animationdemo.adapter.CommonViewHolder;
 
 public class MainActivity extends AppCompatActivity {
-    private boolean fromXml = true;
+    private boolean fromXml = false;
     private ImageView iv;
 
 
